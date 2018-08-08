@@ -1,0 +1,42 @@
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>ajax豆瓣api练习</title>
+	<meta name="keywords" content="模板">
+	<meta name="description" content="模板">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="js/lib/layui2.3/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="all-bg">
+  <div class="layui-form details-addbiji">
+		<div class="layui-form-item">
+			<label class="layui-form-label">所属章节</label>
+			<div class="layui-input-block">
+			  <input type="text" name="chapter" autocomplete="off" placeholder="请输入章节" class="layui-input" id="chapter">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">所属页码</label>
+			<div class="layui-input-block">
+			  <input type="text" name="page" autocomplete="off" placeholder="请输入页码" class="layui-input" id="page">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">笔记内容</label>
+			<div class="layui-input-block">
+			  <textarea name="content" id="content"></textarea>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			 <div class="layui-input-block">
+			  <button class="layui-btn" lay-submit="" lay-filter="editBiji">立即提交</button>
+			</div>
+		</div>
+	</div>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/layui2.3/layui.all.js"></script>
+<script src="js/biji.js"></script>
+</body>
+</html>

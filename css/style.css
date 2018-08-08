@@ -1,0 +1,236 @@
+@charset "utf-8";
+.index-form .layui-btn {
+    vertical-align: top;
+    padding: 0 26px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #008aff;
+}
+.index-form .layui-btn i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 38px;
+    margin-right: 0;
+}
+.index-ul {
+    text-align: center;
+    font-size: 0;
+}
+.index-ul li h3 {
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 24px;
+    font-weight: 600;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    margin: 5px 0;
+}
+.index-ul li {
+    position: relative;
+    width: 160px;
+    height: 280px;
+    display: inline-block;
+    margin: 15px 13px;
+    font-size: 14px;
+	text-align: left;
+}
+.index-ul li img{
+	width:100%;
+	height:200px;
+	border:1px solid #ddd;
+}
+.index-ul li:hover img{
+	border:1px solid #008aff;
+}
+.index-ul li:hover h3{
+	color:#008aff;
+}
+.index-ul li:hover p{
+	color:#333;
+}
+.index-ul li p{
+    padding: 0 10px;
+    font-size: 12px;
+    margin-bottom: 5px;
+	height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+	line-height: 15px;
+}
+.index-ul li p span{
+	color:red;
+	font-size:14px;
+}
+.labo-content{
+	overflow-y: auto;
+}
+.material-ul {
+    margin: 20px;
+	line-height: 49px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.material-ul .material-span{
+    width: 100px;
+    font-weight: 600;
+    text-align: right;
+}
+.material-ul li {
+    margin-right: 13px;
+	display: inline-block;
+}
+.material-ul .search-this a, .material-ul li a:hover {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #008aff;
+}
+.material-ul li a {
+    padding: 5px 10px;
+}
+.index-form{
+	text-align:center;
+	margin-top:20px;
+}
+#pages{
+	text-align:center;
+	margin-top:30px;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em{
+	background-color: #008aff;
+}
+.layui-laypage a:hover, .layui-laypage span:hover{
+	color: #008aff;
+}
+/*详情页*/
+.index-left,.index-right{
+	display:inline-block;
+	vertical-align:top;
+}
+.index-left img{
+	width:200px;
+	height:247px;
+}
+.index-right{
+	width:900px;
+	margin-left:20px;
+}
+.index-right h1{
+	font-size:20px;
+	font-weight:600;
+	margin-top:10px;
+}
+.index-right h1 span{
+	font-size:14px;
+	font-weight:500;
+	margin-left:20px;
+}
+.details-p{
+	margin:10px 0;
+}
+.details-p span{
+	font-size:14px;
+	width:300px;
+	display:inline-block;
+}
+.details-p span strong{
+    font-size:16px;
+	color:red;
+}
+.details-content{
+	overflow-y: auto;
+    padding: 20px;
+}
+.index-tags{
+	height:50px;
+	line-height: 25px;
+	margin:15px 0;
+}
+.index-tags span{
+	padding:2px 10px;
+	border-radius:25px;
+	border:1px solid #999;
+	color:#999;
+	margin-right:20px;
+}
+.details-summary{
+	line-height:24px;
+	height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+	margin-bottom:10px;
+}
+.details-body{
+	margin-top:20px;
+}
+.details-title p{
+	margin:10px;
+	line-height:24px;
+}
+.details-ml li{
+	padding:10px 20px;
+	border-bottom:1px solid #e7e7e7;
+}
+.details-biji li{
+	padding:10px 20px;
+	border-bottom:1px solid #e7e7e7;
+}
+.biji-title{
+	color:#5b8cff;
+	font-size:16px;
+	margin-bottom:10px;
+}
+.biji-title span{
+	color:#999;
+	margin-left:5px;
+	font-size:14px;
+}
+.biji-cz a{
+    padding: 2px 10px;
+    height: 30px;
+	border-radius:5px;
+    border: 1px solid #5b8cff;
+    color: #5b8cff;
+    line-height: 30px;
+    margin-right:20px;
+}
+.biji-cz a:hover{
+	background:#5b8cff;
+	color:#fff;
+}
+.biji-abstract{
+	line-height:24px;
+	margin-bottom:10px;
+	max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+textarea{
+	width:970px;
+	height:100px;
+}
+.layui-btn{
+	background-color:#5b8cff;
+}
+.details-addbiji{
+	padding:30px;
+}
+.all-bg{
+	max-width:200px;
+	overflow-x:hidden;
+}
+.details-top{
+	margin-bottom:20px;
+}
